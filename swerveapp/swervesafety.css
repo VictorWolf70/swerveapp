@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+     background-image: linear-gradient(rgba(4,9,30,0.7)),url(After.jpeg);
+    background-color: hsl(240, 34%, 56%);
+    margin: 0%;
+    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    position: relative;
+}
+.h1{
+margin-top: auto;
+}

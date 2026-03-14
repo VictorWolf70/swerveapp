@@ -1,0 +1,93 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+     background-image: linear-gradient(rgba(4,9,30,0.7)),url(swervegirl.jpeg);
+    background-color: hsl(240, 34%, 56%);
+    margin: 0%;
+}
+.login-container{
+background-color: #f4f3f538;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgb(199, 189, 189);
+width: 300px;
+
+}
+ .username {
+    color: #d6dce2;
+}
+.login-container h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f3ecec;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input[type="text"], .form-group input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.form-group input[type="submit"] {
+    background-color: #4b607762;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #fff;
+    width: 300px;
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    animation: 015s;
+}
+
+.form-group input[type="submit"]:hover{
+     opacity: 0.7;
+}
+.forget{
+    text-align: center;
+    font-size: small;
+    font-family: sans-serif;
+    justify-content: center;
+    color: #f3f3f3ce;
+    cursor: pointer;
+    transition: text-decoration 0.3s ease-in-out transform 0.3s ease-in-out ;
+
+}
+.forget:hover{
+    text-decoration: underline;
+}
+.forget:active {
+    color: #0a3b96;
+}
+.new-account{
+    margin-top: 10px;
+    font-weight: bold;
+    color: #faf7f6ce;
+    background-color:#4b607762;
+    width: 300px;
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: hover 015s;
+}
+.new-account:hover{
+        background-color: #d6dce2;
+        opacity: 0.8;
+        color: #cf8859;
+}
+new-account:action {
+
+}

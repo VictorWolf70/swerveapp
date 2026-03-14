@@ -1,0 +1,185 @@
+            body {
+                font-family: Roboto,arial;
+                font-size: medium;
+                font-weight: 500;
+                display: flex;
+                justify-content: center;
+                min-height: 100hv;
+                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), 
+                                url("swervecover.jpeg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+
+                margin: 0;
+                padding: 0;
+                width: 100%;
+
+}
+
+            .flexheader {
+            display: flex;
+            column-gap: 20px;
+            border-width: 0px;
+            border-style: solid;
+            border-color: rgb(145, 142, 142);
+            height: 100px;
+            width: 100%;
+            margin-top: 20px;
+            justify-content: start;
+
+            align-items: center;
+            background-color: 
+        }
+
+
+
+.right {
+    display: flex;
+    flex: 1;
+    justify-content:right;
+    align-items: center;
+    align-content: space-between;
+    margin-left: 70px;
+}
+.middle {
+    display: flex;
+    flex: 2;
+    justify-content:center;
+    align-items: center;
+
+    
+}
+
+
+.left {
+    display: flex;
+    flex: 1;
+    justify-content:center;
+    align-items: center;
+
+
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+            .logo {
+                width: 300px;
+                height: 120px;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+            }
+                .product {
+                    color: white;
+                    text-decoration: none;
+                    margin-right: 15px;
+                    margin-left: 0;
+                    font-size: 14px;
+                    animation: 0.015s;
+                    position: relative;
+                }
+                .product:hover {
+                    background-color: aliceblue;
+                    padding: 4px;
+                    border-radius: 4px;
+                    color: black;
+                }
+                .safety {
+                    color: white;
+                    text-decoration: none;
+                    margin-right: 10px;
+                    position: relative;
+
+                }
+                .safety:hover {
+                    background-color: aliceblue;
+                    padding: 4px;
+                    border-radius: 4px;
+                    color: black;
+                }
+                .learn {
+                    color: white;
+                    text-decoration: none;
+                    margin-right: 20px;
+                    position: relative;
+                }
+
+                .learn:hover {
+                    background-color: aliceblue;
+                    padding: 4px;
+                    border-radius: 4px;
+                    color: black;
+                }
+
+                .support {
+                    color: white;
+                    text-decoration: none;
+                    margin-right: 20px;
+                    position: relative;
+                }
+
+                .support:hover {
+
+                    background-color: aliceblue;
+                    padding: 4px;
+                    border-radius: 4px;
+                    color: black;
+                }
+
+                .download {
+                    color: white;
+                    text-decoration: none;
+                    margin-left: 10px;
+                    position: relative;
+                }
+
+                .download:hover {
+
+                    background-color: aliceblue;
+                    padding: 4px;
+                    border-radius: 4px;
+                    color: black;
+                }
+                .language {
+                    color: white;
+                    text-decoration: none;
+                    margin-right: 30px;
+                    animation: 9s ease-in-out infinite fade-in-out;
+                }
+
+                .language:hover {
+                    background-color: aliceblue;
+                    padding: 4px;
+                    border-radius: 4px;
+                    color: black;
+                    font-size: 14px;
+                    text-transform: none;
+                }
+                .login {
+
+                    padding: 10px;
+                    border-radius: 10px;
+                    width: 90px;
+                    background-color: white;
+                    font-weight: bold;
+                    margin-right: 10px;
+                }
+                .login:hover {
+                    background-color: black;
+                    color: white;
+                    cursor: pointer;
+                }       
+
+                .section {
+                    display: flex;
+                    flex: 1;
+                }
+
+                .swerveup {
+                    display: flex;
+                }
+
+                    
